@@ -3,3 +3,5 @@
 /pig-0.*
 
 *.log
+*.pig.substituted
+
