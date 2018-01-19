@@ -7,9 +7,9 @@ pig:
 tutorial: pig
 	@mkdir -p output
 	@rm -rf output/tutorial
-	@pig -d ERROR -x local -f examples/tutorial.pig
+	@pig -4 log4j.conf -x local -f examples/tutorial.pig
 
 word-count: pig
 	@mkdir -p output
 	@rm -rf output/word-count
-	@pig -d ERROR -x local -f examples/word-count.pig
+	@pig -4 log4j.conf -x local -f examples/word-count.pig
